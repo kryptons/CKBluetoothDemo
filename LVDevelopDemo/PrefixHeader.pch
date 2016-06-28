@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  LVDevelopDemo
+//
+//  Created by 陈文昊 on 16/6/28.
+//  Copyright © 2016年 NSObject. All rights reserved.
+//
+
+#ifndef LVDevelopDemo_PrefixHeader_pch
+#define LVDevelopDemo_PrefixHeader_pch
+
+#import "MBProgressHUD+MJ.h"
+#import "UIView+Extension.h"
+
+
+#define LVColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define LVGlobalBg LVColor(230, 230, 230)
+
+
+
+
+
+
+
+#endif
